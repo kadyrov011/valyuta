@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MARVEl</title>
+
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+  <main>
+    <section class="hero  p-5 ">
+      <div class="container d-flex flex-columns">
+        <div class="col-8 mx-auto my-auto ">
+          <form class="d-flex gap-3 form__js">
+            <input class="form-control mx-5 input__money" type="number" placeholder="UZBEK S'OM"  required>
+            <strong class="input-text visually-hidden"></strong>
+            <select class="form-select mx-4 js-select" aria-label="Default select example">
+              <option selected disabled>Currency</option>
+              <option value="usa"  class="form__op1">USA</option>
+              <option value="eu" class="form__op2">EU</option>
+              <option  value="rub" class="form__op3">RUBL</option>
+            </select>
+            <button type="submit" class="btn btn-primary form__ex">exchange</button>
+          </form>
+          <h2 class="ozgaruv text-dark opacity-75 d-flex justify-content-center align-items-center my-lg-5">HELLO!</h2>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
+<!-- 
+firstUsa.addEventListener('change', function () {
+  console.log((inputSom.value-0)*usa);
+});
+firstEu.addEventListener('change', function () {
+  console.log((inputSom.value-0)* euro);
+});
+firstRubl.addEventListener('change', function () {
+  console.log((inputSom.value-0)*rubl);
+}); -->
